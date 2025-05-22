@@ -13,7 +13,7 @@ export function Main() {
   }, []);
 
   return (
-    <View style={{ paddingBottom: insets.bottom, paddingTop: insets.top }}>
+    <View className="bg-black" style={{ paddingBottom: insets.bottom }}>
       {games.lenght === 0 ? (
         <ActivityIndicator></ActivityIndicator>
       ) : (

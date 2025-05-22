@@ -30,35 +30,38 @@ import { gamesList } from "../mocks/games";
 //   });
 // }
 
-export async function getGameDetails(slug) {
-  const GAME_DETAILS = `https://internal-prod.apigee.fandom.net/v1/xapi/composer/metacritic/pages/games/${slug}/web?&apiKey=1MOZgmNFxvmljaQR1X9KAij9Mo4xAY3u`;
+export function getGameDetails(slug) {
+  // Find the game in the mock list
+  const game = gamesList.find((g) => g.slug === slug);
 
-  const rawData = await fetch(GAME_DETAILS);
-  const json = await rawData.json();
+  if (!game) {
+    throw new Error("Game not found");
+  }
 
-  const { components } = json;
-  const { title, description, criticScoreSummary, images } = components[0];
-  const { score } = criticScoreSummary;
-
-  // get the card image
-  const cardImage = images.find((image) => image.typeName === "cardImage");
-  const { bucketType, bucketPath } = cardImage;
-  const img = `https://www.metacritic.com/a/img/${bucketType}${bucketPath}`;
-
-  const rawReviews = components[3].data.items;
-
-  // get the reviews
-  const reviews = rawReviews.map((review) => {
-    const { quote, score, date, publicationName, author } = review;
-    return { quote, score, date, publicationName, author };
-  });
+  // Mock reviews data
+  const reviews = [
+    {
+      quote: "A fantastic experience!",
+      score: 90,
+      date: "2024-05-01",
+      publicationName: "Game Reviewer",
+      author: "Jane Doe",
+    },
+    {
+      quote: "Solid gameplay and story.",
+      score: 85,
+      date: "2024-05-10",
+      publicationName: "Another Outlet",
+      author: "John Smith",
+    },
+  ];
 
   return {
-    img,
-    title,
-    slug,
-    description,
-    score,
+    img: game.image,
+    title: game.title,
+    slug: game.slug,
+    description: game.description,
+    score: game.score,
     reviews,
   };
 }
