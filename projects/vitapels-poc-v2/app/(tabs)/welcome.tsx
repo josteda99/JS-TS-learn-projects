@@ -1,14 +1,21 @@
+import { useRef } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Rive from "rive-react-native";
 
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
+  const riveRef = useRef(null);
 
-
+  // const handleChangeSad = (isSad) => {
+  //   riveRef.current?.setInputState("test", "changeSad", isSad);
+  // };
 
   return (
     <SafeAreaView style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-      <View style={styles.welcomeContainer}></View>
+      <View style={styles.welcomeContainer}>
+        <Rive ref={riveRef} url="https://temporal-rive.s3.us-east-1.amazonaws.com/warawara3.riv" stateMachineName="test" autoplay={true} style={styles.rive} />
+      </View>
       <View style={styles.welcomeTextContainer}>
         <Text style={styles.title}>Welcome <Text style={styles.vita}>Vitauser</Text></Text>
       </View>
@@ -56,5 +63,9 @@ const styles = StyleSheet.create({
   },
   vita: {
     fontWeight: 'bold',
-  }
+  },
+  rive: {
+    width: 500,
+    height: 500,
+  },
 });
