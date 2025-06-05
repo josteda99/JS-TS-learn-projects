@@ -1,4 +1,4 @@
-# Projects 😁
+# JS and TS learn projects 😁
 
 ## Hello eveyone, this is a repository of react course that I do following the classes of Midudev but I also used this repository as a proyect showing case (Idk)
 
