@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the name of the main character in the Legend of Zelda series?",
+    "options": [
+      { "id": 0, "option": "Zelda" },
+      { "id": 1, "option": "Link" },
+      { "id": 2, "option": "Ganon" },
+      { "id": 3, "option": "Epona" }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 2,
+    "question": "Which company developed the game 'The Witcher 3: Wild Hunt'?",
+    "options": [
+      { "id": 0, "option": "CD Projekt Red" },
+      { "id": 1, "option": "Ubisoft" },
+      { "id": 2, "option": "Rockstar Games" },
+      { "id": 3, "option": "Bethesda" }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 3,
+    "question": "In which game do players compete in a battle royale on an island called Erangel?",
+    "options": [
+      { "id": 0, "option": "Fortnite" },
+      { "id": 1, "option": "Call of Duty: Warzone" },
+      { "id": 2, "option": "PUBG" },
+      { "id": 3, "option": "Apex Legends" }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 4,
+    "question": "What color is Sonic the Hedgehog?",
+    "options": [
+      { "id": 0, "option": "Red" },
+      { "id": 1, "option": "Green" },
+      { "id": 2, "option": "Blue" },
+      { "id": 3, "option": "Yellow" }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is NOT a Pokémon type?",
+    "options": [
+      { "id": 0, "option": "Fire" },
+      { "id": 1, "option": "Water" },
+      { "id": 2, "option": "Air" },
+      { "id": 3, "option": "Ghost" }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 6,
+    "question": "Which video game series features a character named Master Chief?",
+    "options": [
+      { "id": 0, "option": "Halo" },
+      { "id": 1, "option": "Gears of War" },
+      { "id": 2, "option": "Mass Effect" },
+      { "id": 3, "option": "Destiny" }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 7,
+    "question": "In which game do you build with blocks and survive against creepers?",
+    "options": [
+      { "id": 0, "option": "Terraria" },
+      { "id": 1, "option": "Roblox" },
+      { "id": 2, "option": "Minecraft" },
+      { "id": 3, "option": "Ark: Survival Evolved" }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 8,
+    "question": "What is the name of Mario's dinosaur companion?",
+    "options": [
+      { "id": 0, "option": "Toad" },
+      { "id": 1, "option": "Koopa" },
+      { "id": 2, "option": "Yoshi" },
+      { "id": 3, "option": "Luigi" }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 9,
+    "question": "Which game features a fictional city called Vice City?",
+    "options": [
+      { "id": 0, "option": "Grand Theft Auto: Vice City" },
+      { "id": 1, "option": "Saints Row" },
+      { "id": 2, "option": "Mafia II" },
+      { "id": 3, "option": "Watch Dogs" }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 10,
+    "question": "What year was the first PlayStation console released?",
+    "options": [
+      { "id": 0, "option": "1992" },
+      { "id": 1, "option": "1994" },
+      { "id": 2, "option": "1996" },
+      { "id": 3, "option": "1998" }
+    ],
+    "answer": 1
+  }
+]
