@@ -6,6 +6,7 @@ export const createMovieRouter = ({ movieModel }) => {
 
   const movieController = new MovieController({ movieModel });
 
+  console.log(movieController);
   moviesRouter.get("/", movieController.getAll);
   moviesRouter.get("/:id", movieController.getById);
   moviesRouter.post("/", movieController.create);

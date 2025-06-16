@@ -3,6 +3,7 @@ import { createMovieRouter } from "./routes/movies.js";
 import { corsMiddleware } from "./middlewares/cors.js";
 
 export const createApp = ({ movieModel }) => {
+  console.log("tes");
   const app = express();
 
   app.disable("x-powered-by");
