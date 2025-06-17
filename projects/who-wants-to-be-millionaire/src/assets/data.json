@@ -108,5 +108,65 @@
       { "id": 3, "option": "1998" }
     ],
     "answer": 1
+  },
+  {
+    "id": 11,
+    "question": "In 'Dark Souls', what is the name of the primordial serpent who seeks to 'extend the Age of Fire'?",
+    "options": [
+      { "id": 0, "option": "Kaathe" },
+      { "id": 1, "option": "Frampt" },
+      { "id": 2, "option": "Seath" },
+      { "id": 3, "option": "Gwyndolin" }
+    ],
+    "answer": 1,
+    "difficulty": 8
+  },
+  {
+    "id": 12,
+    "question": "What is the name of the AI companion in 'System Shock' that later inspired the character GLaDOS from Portal?",
+    "options": [
+      { "id": 0, "option": "Athena" },
+      { "id": 1, "option": "Cortana" },
+      { "id": 2, "option": "SHODAN" },
+      { "id": 3, "option": "SARA" }
+    ],
+    "answer": 2,
+    "difficulty": 9
+  },
+  {
+    "id": 13,
+    "question": "Which *non-playable* race is responsible for creating the Reapers in the 'Mass Effect' series?",
+    "options": [
+      { "id": 0, "option": "Protheans" },
+      { "id": 1, "option": "Reapers" },
+      { "id": 2, "option": "Leviathans" },
+      { "id": 3, "option": "Collectors" }
+    ],
+    "answer": 2,
+    "difficulty": 9
+  },
+  {
+    "id": 14,
+    "question": "In the original 'X-COM: UFO Defense' (1994), what resource is primarily used to manufacture advanced weapons and armor?",
+    "options": [
+      { "id": 0, "option": "Alloys" },
+      { "id": 1, "option": "Elerium-115" },
+      { "id": 2, "option": "Plasma Cells" },
+      { "id": 3, "option": "Fusion Cores" }
+    ],
+    "answer": 1,
+    "difficulty": 10
+  },
+  {
+    "id": 15,
+    "question": "In 'The Legend of Zelda: Majora's Mask', how many total masks can Link collect?",
+    "options": [
+      { "id": 0, "option": "20" },
+      { "id": 1, "option": "22" },
+      { "id": 2, "option": "24" },
+      { "id": 3, "option": "30" }
+    ],
+    "answer": 2,
+    "difficulty": 8
   }
 ]

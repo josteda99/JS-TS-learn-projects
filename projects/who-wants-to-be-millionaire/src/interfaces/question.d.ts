@@ -3,6 +3,7 @@ interface IQuestion {
   question: string;
   options: IOption[];
   answer: number;
+  difficulty: number; // 0 -> 10
 }
 
 interface IOption {
