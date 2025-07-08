@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "111777901267",
+    "project_id": "notpoc-9b8c0",
+    "storage_bucket": "notpoc-9b8c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111777901267:android:5b3e2bbf3a7376b42b4226",
+        "android_client_info": {
+          "package_name": "com.josteda.notificationpoc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLPn0Sbyw_VuF5CUQOU3VKeY5Du85bHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

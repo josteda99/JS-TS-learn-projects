@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:awesome_notifications/awesome_notifications.dart';
+import 'package:notification_flutter_poc/notification_controller.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
@@ -57,6 +58,15 @@ class MyHomePage extends StatelessWidget {
             },
             child: const Text(
               'Get Notifation please',
+              style: TextStyle(fontSize: 20, color: Colors.white),
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              NotificationController.getFirebaseMessagingToken();
+            },
+            child: const Text(
+              'Get access token',
               style: TextStyle(fontSize: 20, color: Colors.white),
             ),
           ),
