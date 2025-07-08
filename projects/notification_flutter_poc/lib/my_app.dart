@@ -46,7 +46,15 @@ class _MyAppState extends State<MyApp> {
       onGenerateRoute: (settings) {
         switch (settings.name) {
           case '/':
-            return MaterialPageRoute(builder: (context) => MyHomePage());
+            return MaterialPageRoute(
+              builder: (context) {
+                ReceivedAction? receivedAction;
+                if (settings.arguments != null) {
+                  receivedAction = settings.arguments as ReceivedAction;
+                }
+                return MyHomePage(receivedAction: receivedAction);
+              },
+            );
 
           case '/notification-page':
             return MaterialPageRoute(
